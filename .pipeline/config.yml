@@ -12,10 +12,10 @@ stages:
     karmaExecuteTests: false
   Acceptance:
     cloudFoundryDeploy: false
-    cfApiEndpoint: ""
-    cfOrg: ""
-    cfSpace: ""
-    cfCredentialsId: ""
+    cfApiEndpoint: "https://api.cf.sap.hana.ondemand.com"
+    cfOrg: "LCAP_int"
+    cfSpace: "QA"
+    cfCredentialsId: "ming-kho-cf"
     uiVeri5ExecuteTests: false
   Compliance:
     sonarExecuteScan: false
