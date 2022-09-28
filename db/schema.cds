@@ -18,4 +18,5 @@ entity Products
     key ID : UUID
         @Core.Computed;
     Name : String(100);
+    Price : Decimal(2,2);
 }
